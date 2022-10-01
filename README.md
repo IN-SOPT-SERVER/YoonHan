@@ -5,4 +5,4 @@
 
 |Week|Theme|Basic|Advanced|
 |------|-----|---|---|
-|Week1|JS, TS 기초|||
+|Week1|JS, TS 기초|✔️||
