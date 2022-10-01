@@ -1,3 +1,8 @@
 # YoonHan
 
-## 서린이의 성장기
+## 코리곰탕
+
+
+|Week|Theme|Basic|Advanced|
+|------|-----|---|---|
+|Week1|JS, TS 기초|||
