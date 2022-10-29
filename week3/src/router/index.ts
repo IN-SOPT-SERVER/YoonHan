@@ -3,6 +3,6 @@ import movieRouter from "./movieRouter";
 
 const router:Router = express.Router();
 
-router.use("./movie", movieRouter);
+router.use("/movie", movieRouter);
 
-export default router;
+module.exports = router;

@@ -1,8 +1,8 @@
-import { Router } from 'express';
+import express, { Router } from 'express';
 import getMovieDetail from "../api/movie";
 
-const router:Router = Router();
+const movieRouter:Router = express.Router();
 
-router.get("/", getMovieDetail);
+movieRouter.get("/", getMovieDetail);
 
-export default router;
+export default movieRouter;
