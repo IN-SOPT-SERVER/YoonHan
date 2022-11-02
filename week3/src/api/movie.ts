@@ -11,4 +11,10 @@ const getMovieDetail = (req:Request, res:Response) => {
     });
 };
 
+const createMovie = (req, res) => {
+    // 생성로직
+    return res.status(200).json(
+    )
+}
+
 export default getMovieDetail;
