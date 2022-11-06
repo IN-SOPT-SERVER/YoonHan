@@ -5,4 +5,5 @@ const movieRouter:Router = express.Router();
 
 movieRouter.get("/", getMovieDetail);
 
+
 export default movieRouter;

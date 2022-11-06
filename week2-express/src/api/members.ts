@@ -57,7 +57,14 @@ router.get("/:memberId", (req:Request, res:Response) => {
 
 // query string 받아오기
 router.get("/", (req: Request, res: Response) => {
-  console.log(`query string : ${req.query.name}`)
+  console.log(`query string : ${req.query.title}`)
+
+  const postTitle:String = req.query.title;
+
+  if (postTitle == "윤한 ") {
+    console.log("윤한입니다.")
+  } 
+
 })
 
 

@@ -5,4 +5,5 @@ const router:Router = express.Router();
 
 router.use("/movie", movieRouter);
 
+
 module.exports = router;

@@ -1,6 +1,5 @@
 import express, { Request, Response, Router } from "express";
 
-const router: Router = express.Router();
 const movieData = require("../data/movieData.json");
 
 const getMovieDetail = (req:Request, res:Response) => {
@@ -12,6 +11,7 @@ const getMovieDetail = (req:Request, res:Response) => {
 };
 
 const createMovie = (req, res) => {
+    
     // 생성로직
     return res.status(200).json(
     )

@@ -1,7 +1,7 @@
 import express, { NextFunction, Request, Response } from "express";
 
 const app = express(); // express 객체를 받아온다.
-const PORT = 3000; // port를 설정
+const PORT = 3001; // port를 설정
 
 app.use(express.json()); // express에서 request body를 json으로 받아온다.
 app.use("/api", require("./api")); // use -> 모든 요청
